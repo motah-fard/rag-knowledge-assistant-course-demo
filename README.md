@@ -1,4 +1,257 @@
 # RAG Knowledge Assistant
+### AI Engineering Course 1 Project
+
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![RAG](https://img.shields.io/badge/RAG-Knowledge%20Assistant-purple)
+![Embeddings](https://img.shields.io/badge/Embeddings-SentenceTransformers-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+A step-by-step educational project for learning Retrieval-Augmented Generation (RAG) from first principles.
+
+This repository accompanies the first course in an AI Engineering learning path and demonstrates how to build a complete document question-answering system using:
+
+- Document Processing
+- Chunking
+- Embeddings
+- Semantic Search
+- Retrieval
+- RAG
+- Citations
+- Streamlit
+
+The project intentionally avoids heavy frameworks in order to make every stage of the pipeline visible and understandable.
+
+---
+
+# Learning Objectives
+
+After completing this project, students should be able to:
+
+- Explain why LLMs hallucinate
+- Explain why prompting alone is insufficient
+- Split documents into chunks
+- Generate embeddings
+- Perform semantic retrieval
+- Build a RAG pipeline
+- Display supporting evidence
+- Build a simple knowledge assistant
+- Diagnose common RAG failures
+
+---
+
+# Project Story
+
+Imagine a company with hundreds of internal documents.
+
+Employees ask questions such as:
+
+- How many PTO days do employees get?
+- What is the travel reimbursement policy?
+- Can employees share passwords?
+
+A traditional LLM does not know the answers.
+
+Instead of guessing, we:
+
+Load Documents
+→ Chunk Documents
+→ Generate Embeddings
+→ Retrieve Relevant Chunks
+→ Build Context
+→ Generate Answer
+→ Display Sources
+
+The result is a simple but complete RAG system.
+
+---
+
+# Repository Structure
+
+```text
+docs/
+src/
+failures/
+assignments/
+labs/
+hints/
+solutions/
+```
+
+---
+
+# Demo Progression
+
+| Step | File | Concept |
+|------|------|----------|
+| 1 | 01_llm_without_context.py | LLM limitations |
+| 2 | 02_prompt_engineering.py | Prompting |
+| 3 | 03_load_documents.py | Document loading |
+| 4 | 04_chunking.py | Chunking |
+| 5 | 05_embeddings.py | Embeddings |
+| 6 | 06_similarity_search.py | Semantic retrieval |
+| 7 | 07_rag_answer.py | RAG |
+| 8 | 08_sources.py | Citations |
+| 9 | 09_streamlit_app.py | UI |
+
+---
+
+# Failure-First Learning
+
+The repository includes intentionally broken examples:
+
+- Bad Prompting
+- Tiny Chunks
+- Huge Chunks
+- Keyword Search
+- No Retrieved Context
+- Unknown Questions
+
+Students first observe failures, then implement the fixes.
+
+---
+
+# Assignments
+
+Assignments reinforce each concept:
+
+- Prompt Engineering
+- Chunking
+- Embeddings
+- Similarity Search
+- RAG
+- Sources
+- Final Project
+
+---
+
+# Labs
+
+## Lab 1
+Build a Document Search Pipeline
+
+## Lab 2
+Build a Retrieval Engine
+
+## Lab 3
+Build a Complete RAG Assistant
+
+---
+
+# Hints
+
+Hints are provided for every lab without revealing the full implementation.
+
+---
+
+# Installation
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+---
+
+# Running The Demos
+
+```bash
+python src/01_llm_without_context.py
+python src/02_prompt_engineering.py
+python src/03_load_documents.py
+python src/04_chunking.py
+python src/05_embeddings.py
+python src/06_similarity_search.py
+python src/07_rag_answer.py
+python src/08_sources.py
+```
+
+Run Streamlit:
+
+```bash
+streamlit run src/09_streamlit_app.py
+```
+
+---
+
+# Educational Philosophy
+
+Concept
+→ Demo
+→ Failure Demo
+→ Assignment
+→ Lab
+→ Hint
+
+The goal is not to memorize code.
+
+The goal is to understand why each part of a RAG system exists.
+
+---
+
+# Future Topics
+
+Future courses expand into:
+
+- AI Agents
+- Tool Calling
+- Memory
+- Planning
+- Multi-Agent Systems
+- Evaluation
+- Reliability
+- Production AI Engineering
+
+---
+
+# License
+
+MIT
+
+---
+
+# Author
+
+Created as part of an AI Engineering course series focused on visual explanations, hands-on projects, and failure-first learning.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+# RAG Knowledge Assistant
 
 This project teaches the full RAG pipeline step by step.
 
