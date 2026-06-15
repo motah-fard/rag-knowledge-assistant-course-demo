@@ -415,3 +415,10 @@ For each section:
 What breaks?
 Why does it break?
 How do we fix it?
+
+
+later add the following to the readme:
+
+* Architecture Diagram
+* Screenshots/GIFs از Streamlit App
+* Learning Roadmap Diagram
