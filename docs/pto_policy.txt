@@ -1,0 +1,7 @@
+Employees receive 15 paid time off days per year.
+
+PTO requests must be submitted at least 7 days in advance.
+
+Unused PTO does not roll over to the next year.
+
+Managers must approve PTO requests before employees take time off.

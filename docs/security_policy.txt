@@ -1,0 +1,7 @@
+Employees must not share passwords with anyone.
+
+All company accounts require multi-factor authentication.
+
+Sensitive customer data must not be copied to personal devices.
+
+Security incidents must be reported within 24 hours.
